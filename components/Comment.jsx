@@ -9,7 +9,6 @@ export default function Comment(props) {
       <div>
         {comments.map((x, i) => (
           <div className="d-flex gap-2 my-2">
-            {/* userImagePath   */}
             <img
               src={x.userImagePath}
               width="48"
@@ -37,7 +36,6 @@ export default function Comment(props) {
         ))}{" "}
       </div>
       {/*render Reply here... */}
-      <Reply />
     </div>
   );
 }
